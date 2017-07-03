@@ -14,3 +14,5 @@
 # Metadata
 *.aliases
 *.lvlps
+/Logs
+/Config/ControlValues.bin
