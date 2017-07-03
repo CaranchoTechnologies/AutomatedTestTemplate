@@ -1,0 +1,20 @@
+{
+    "Subpanels": [{
+        "Name": "Setup",
+        "Pathname": "Subpanels\\Template\\SubpanelGuiTemplate.vi"
+    }, {
+        "Name": "Data Viewer",
+        "Pathname": "Subpanels\\Template\\SubpanelSimDataTemplate.vi"
+	}],
+	
+	"DAQ": [{
+		"Name": "Temperature DAQ",
+		"Value": "Services\\DAQ\\DAQ.vi"
+	}, {
+		"Name": "Chamber Control",
+		"Value": "Services\\ChamberControl\\ChamberControl.vi"
+	}, {
+		"Name": "Data Storage",
+		"Value": "Services\\DataStorage\\DataStorage.vi"
+	}]
+}
