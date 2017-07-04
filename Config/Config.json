@@ -8,13 +8,19 @@
 	}],
 	
 	"DAQ": [{
-		"Name": "Temperature DAQ",
-		"Value": "Services\\DAQ\\DAQ.vi"
+		"Name": "Temperature",
+		"Value": ""
 	}, {
-		"Name": "Chamber Control",
-		"Value": "Services\\ChamberControl\\ChamberControl.vi"
+		"Name": "Voltage",
+		"Value": ""
 	}, {
-		"Name": "Data Storage",
-		"Value": "Services\\DataStorage\\DataStorage.vi"
+		"Name": "Voltage High",
+		"Value": ""
+	}, {
+		"Name": "Voltage Low",
+		"Value": ""
+	}, {
+		"Name": "Current",
+		"Value": ""
 	}]
 }
