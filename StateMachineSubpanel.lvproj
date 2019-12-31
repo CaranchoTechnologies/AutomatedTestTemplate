@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="14008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -16,9 +16,7 @@
 		<Item Name="Controls" Type="Folder" URL="../Controls">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Documentation" Type="Folder" URL="../Documentation">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Documentation" Type="Folder"/>
 		<Item Name="Subpanels" Type="Folder" URL="../Subpanels">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -70,7 +68,6 @@
 			</Item>
 			<Item Name="DAQControl.ctl" Type="VI" URL="../Controls/Messages/DAQControl.ctl"/>
 			<Item Name="MessageQueue-PublishMessage.vi" Type="VI" URL="../Utilities/MessageQueue/MessageQueue-PublishMessage.vi"/>
-			<Item Name="StateData.ctl" Type="VI" URL="../Controls/StateData.ctl"/>
 			<Item Name="User32.dll" Type="Document" URL="User32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

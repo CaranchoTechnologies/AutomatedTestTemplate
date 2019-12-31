@@ -1,26 +1,19 @@
 {
     "Subpanels": [{
-        "Name": "Setup",
-        "Pathname": "Subpanels\\Template\\SubpanelGuiTemplate.vi"
+        "Name": "Generic Subpanel",
+        "Pathname": "Subpanels\\Template\\SubpanelTemplate.vi",
+		"Type": "Visible"
     }, {
         "Name": "Data Viewer",
-        "Pathname": "Subpanels\\Template\\SubpanelSimDataTemplate.vi"
-	}],
-	
-	"DAQ": [{
-		"Name": "Temperature",
-		"Value": ""
-	}, {
-		"Name": "Voltage",
-		"Value": ""
-	}, {
-		"Name": "Voltage High",
-		"Value": ""
-	}, {
-		"Name": "Voltage Low",
-		"Value": ""
-	}, {
-		"Name": "Current",
-		"Value": ""
-	}]
+        "Pathname": "Subpanels\\Template\\SubpanelSimDataTemplate.vi",
+		"Type": "Visible"
+    }, {
+        "Name": "Example GUI",
+        "Pathname": "Subpanels\\Template\\SubpanelGuiTemplate.vi",
+		"Type": "Hidden"
+    }, {
+        "Name": "Put Subpanel Name Here",
+        "Pathname": "Subpanels\\SubpanelFolderName\\Subpanel.vi",
+		"Type": "Type can either be Visible, Hidden or Disabled"
+	}]	
 }
