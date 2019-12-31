@@ -23,8 +23,8 @@
 		<Item Name="Utilities" Type="Folder" URL="../Utilities">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="AutomatedTestTemplate.vi" Type="VI" URL="../AutomatedTestTemplate.vi"/>
 		<Item Name="Menu.rtm" Type="Document" URL="../Menu.rtm"/>
-		<Item Name="StateMachineSubpanel.vi" Type="VI" URL="../StateMachineSubpanel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
